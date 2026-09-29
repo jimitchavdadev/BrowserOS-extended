@@ -16,6 +16,7 @@ import { tabs } from './tabs'
 import { upload } from './upload'
 import { wait } from './wait'
 import { windows } from './windows'
+import { console_execute } from './console'
 
 export const BROWSER_TOOLS: readonly ToolDefinition[] = [
   tabs,
@@ -35,4 +36,5 @@ export const BROWSER_TOOLS: readonly ToolDefinition[] = [
   windows,
   evaluate,
   run,
+  console_execute,
 ]
